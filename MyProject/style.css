@@ -1,0 +1,627 @@
+* {
+    font-family: sans-serif;
+}
+
+.p {
+    text-align: center;
+    margin-bottom: 10%;
+    text-shadow: 1px 1px #ccc;
+}
+
+p::first-letter {
+    color: yellow;
+    font-size: 200%;
+    text-shadow: 1px 1px black;
+}
+.mainmap{
+    background: wheat;
+}
+
+.map {
+    margin-top: 4%;
+    margin-left: 4%;
+    width: 40%;
+    height: 30%;
+    animation-name: map;
+    animation-duration: 1.2s;
+    transition: height 0.5s;
+    transition: width 0.5s;
+}
+.map:hover{
+    height: 30%;
+    width: 35%;
+}
+@keyframes map {
+    0% {
+        width: 5%;
+        height: 5%;
+    }
+
+    25% {
+        width: 10%;
+        height: 15%;
+    }
+
+    50% {
+        width: 15%;
+        height: 25%;
+    }
+
+    75% {
+        width: 30%;
+        height: 35%;
+    }
+}
+.mapp0{
+    float: right;
+    margin-right: 20%;
+    margin-top: 7%;
+    font-style: italic;
+}
+.mapbtn{
+    width: 30%;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: whitesmoke;
+}
+
+.mm {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#coinmarketcap-widget-marquee{
+    background-color: transparent;
+    color: black;
+}
+
+#open11 {
+    float: right;
+    display: none;
+}
+
+.closebtn1 {
+    display: none;
+}
+
+img {
+    width: 190px;
+    height: 170px;
+    margin-left: -30px;
+    margin-top: -70px;
+    position: absolute;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    height: 5%;
+}
+
+.header1 {
+    margin-top: 30%;
+    border-style: double;
+    border-radius: 20px;
+    width: 50%;
+    margin-left: 25%;
+}
+
+a {
+    -webkit-box-flex: 1;
+    text-decoration: none;
+    display: inline-flex;
+    float: right;
+    padding: 10px 15px 16px;
+    margin: 2px;
+    color: black;
+    background-color: transparent;
+    transition: 0.8s;
+}
+
+.closebtn {
+    display: none;
+}
+
+#open11 {
+    display: none;
+}
+
+.open1 {
+    width: auto;
+    height: auto;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+a:hover {
+    color: yellow;
+    background-color: black;
+    transition: 0.8s;
+}
+@media screen and (max-width:800px) {
+
+}
+
+@media screen and (max-width:650px) {
+    .a11 {
+        margin-top: -15px;
+        padding-left: 0px;
+    }
+    .on{
+        margin-top: 5px;
+        margin-right: 9px;
+        margin-left: 4px;
+    }
+    .a12{
+        background-color: transparent;
+    }
+    a {
+        
+        padding: 20px 0px 40px 160px;
+        float: right;
+        color: black;
+        background-color: rgba(255, 228, 196, 0.795);
+        font-size: 25px;
+    }
+
+    a:hover {
+        background-color: bisque;
+        color: darkgray;
+    }
+
+    .open1 a {
+        text-decoration: none;
+        transition: 1s;
+    }
+
+    .open1 {
+        height: auto;
+        width: 0;
+        z-index: 1;
+        position: fixed;
+        top: 0;
+        right: 0;
+        transition: 0.5s;
+        overflow: scroll;
+        float: right;
+        background-color: bisque;
+        height: 100%;
+    }
+
+    #open11 {
+        
+        display: inline-block;
+
+    }
+
+    .closebtn1 {
+        display: inline-block;
+        margin-top: -20px;
+    }
+
+    ul li {
+        list-style-type: none;
+        display: table-caption;
+
+    }
+
+    .map {
+        margin-left: 1%;
+        width: 90%;
+        height: 45%;
+        transition: height 0.5s;
+    }
+    .map:hover{
+        height: 35%
+    }
+    .loglog1 {
+        color: black;
+        background-color: antiquewhite;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+        width: 50px;
+    }
+
+    .loglog1:hover {
+        color: white;
+        background-color: black;
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+        width: 70%;
+    }
+   .loglog{
+       width: 20%;
+       background-color: #FFE4C4;
+   }
+   .ifra{
+        height: 25%;
+        width: 75%;
+   }
+}
+
+.a11 {
+    float: left;
+    background-color: transparent;
+}
+
+.entbody {
+    height: 2200px;
+}
+
+
+.secure {
+    float: left;
+    clear: right;
+}
+
+.accessible {
+    float: right;
+    margin-top: 130px;
+}
+
+.fast {
+    clear: both;
+    float: left;
+    margin-top: 130px;
+}
+
+.details {
+    clear: both;
+    float: right;
+    margin-top: 130px;
+}
+
+.p1 {
+    float: center;
+    margin-left: 130px;
+    margin-top: -100px;
+}
+
+.p2 {
+    margin-right: 130px;
+    padding-left: 30px;
+    margin-top: -100px;
+}
+
+.p3 {
+    margin-left: 150px;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+
+.p4 {
+    margin-left: 100px;
+    padding-right: 50px;
+    margin-top: -100px;
+}
+
+.img1 {
+    height: 150px;
+    width: auto;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    animation-name: imagr;
+    animation-duration: 3s;
+    transition: height 0.5s;
+}
+.img1:hover{
+    height: 120px;
+}
+
+@keyframes imagr {
+    0% {
+        right: 0px;
+        top: 0px;
+    }
+
+    25% {
+        right: 150px;
+        top: 0px;
+    }
+}
+
+@keyframes image {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 150px;
+        top: 0px;
+    }
+}
+
+
+.img2 {
+    height: 150px;
+    width: auto;
+    margin-left: 70px;
+    padding-left: 18px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    animation-name: image;
+    animation-duration: 3s;
+    transition: height 0.5s;
+}
+.img2:hover{
+    height: 120px;
+}
+.img3 {
+    height: 150px;
+    width: auto;
+    z-index: 0;
+    transition: height 0.5s;
+}
+.img3:hover{
+    height: 120px;
+}
+.img4 {
+    height: 150px;
+    width: auto;
+    margin-left: 210px;
+    padding-left: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 0;
+    animation-name: image;
+    animation-duration: 3s;
+    transition: height 0.5s;
+}
+.img4:hover{
+    height: 120px;
+}
+.imgdiv {
+    margin: auto;
+    width: 90%;
+    height: 50%;
+    z-index: 0;
+}
+
+
+.div1 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.legend {
+    color: black;
+    width: auto;
+    height: auto;
+}
+
+.foot {
+    text-align: center;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.pdiv {
+    padding-top: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+    line-height: 200%;
+
+}
+
+.entdiv {
+    text-align: center;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+}
+
+.button {
+    color: yellow;
+    background-color: black;
+    width: 80px;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 10px 10px;
+    font-weight: 100;
+}
+
+.button:hover {
+    color: blue;
+    background-color: lightyellow;
+}
+
+.notice {
+    background-color: antiquewhite;
+    color: black;
+    margin: 20%;
+    flex-wrap: wrap;
+    font-style: italic;
+}
+
+.alert {
+    padding: 20px;
+    background-color: burlywood;
+    color: white;
+    width: 300px;
+    margin: auto;
+    box-shadow: 8px 8px #FFE4C4;
+}
+
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    display: block;
+}
+
+.closebtn:hover {
+    color: black;
+}
+
+.para {
+    text-align: center;
+
+}
+
+.form {
+    margin-top: 200px;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+td {
+    text-align: center;
+}
+
+.t {
+    background-color: #4CAF50;
+    color: black;
+    height: 60%;
+}
+
+.row:hover {
+    background-color: #f5f5f5;
+}
+
+.signup {
+    width: 50%;
+    height: 70%;
+    font-size: 24px;
+}
+
+.loglog {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+}
+
+ .loglog {
+    background-color: #555;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    bottom: 23px;
+    right: 28px;
+    width: 15%;
+
+  }
+  
+ 
+  .chat-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+  }
+  
+  
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }
+  
+  
+ 
+  
+#submit {
+    margin-top: 10%;
+    width: 200%;
+    height: 50px;
+    color: black;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    font-size: 20px;
+}
+
+#submit:hover {
+    color: yellow;
+    background-color: black;
+    border: 4px solid bisque;
+}
+
+.field {
+    height: 400px;
+    width: 60%;
+    float: right;
+    display: block;
+    margin-top: 10%;
+}
+
+.avatar {
+    height: 300px;
+    width: 30%;
+    border-radius: 300px;
+    margin-top: 10%;
+}
+.btn{
+    color: #ccc;
+    border-radius: 2px solid black;
+}
+.name {
+    padding: 10px;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+}
+.dark-mode a{
+    color: white;
+}
+.dark-mode #chartopen{
+    border: 2px solid whitesmoke; width: 19%; height: 2%; border-radius: 5px;
+}
+.dark-mode #closec{
+    display: none;
+    border: none;
+    background-color: transparent;
+    width: 10%; 
+    height: 2%; 
+    font-size: 40px;
+    color: white;
+    margin-bottom: 2%;
+}
+.dark-mode #myForm {
+    background-color: black;
+    color: white;
+}
+.footer{
+    margin-top: 15%;
+    margin-bottom: 2%;
+    background-color: #555;
+    color: #ccc;
+}
+.ifra{
+    width: 45%;
+    height: 25%;
+}

@@ -1,0 +1,68 @@
+<!Doctype HTML>
+<html>
+<header></header>
+<title></title>
+
+<body>
+    <label>Naira</label>
+    <input type="number" placeholder="Naira" id="naira">
+
+    <label>Currency</label>
+    <select id="sel" value="sele" name="selec">
+        <option disabled value="option1" selected></option>
+        <option value="510">US Dollar</option>
+        <option value="570">Pounds</option>
+        <option value="490">Euros</option>
+        <option 16000000>BTC</option>
+        <option 980000>ETH</option>
+    </select>
+    <label for="output">Amount</label>
+    <input id="output" placeholder="Amount" type="number">
+
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById("naira").addEventListener("input", calculator);
+            document.getElementById("sel").addEventListener("change"
+                ChangeCurrency);
+
+            function calculator() {
+                let amount = document.getElementById("naira").value;
+                let rate = document.getElementById("sele").value;
+                if (selec == "option1") {
+                    document.getElementById("output").setAttribute("placeholder", "please select currency");
+                } else {
+                    let compute = amount * rate;
+                    document.getElementById("output").value = compute;
+                }
+            }
+
+            function ChangeCurrency() {
+                let rate = document.getElementById("sel").value;
+                let amount = document.getElementById("naira").value;
+
+                let compute = rate * amount;
+                document.getElementById("output").value = compute.toFixed(2);
+            }
+
+            let menu = document.querySelectorAll('select');
+            M.FormSelect.init(menu, {});
+
+        });
+    </script>
+    <button onclick="document.getElementById('demo', 'demo1').innerHTML = getRndInteger(0,10)">Click</button>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <script>
+        function getRndInteger(min, max) {
+            return Math.floor(Math.random() * (max - min))  + min;
+        }
+        function getRndInteger(min, max) {
+            return Math.floor(Math.random() * (max - min))  + min;
+        }
+       
+        //document.getElementById("demo1").innerHTML = Math.floor(Math.random() * 10) + 3;
+
+    </script>
+   
+</body></html>

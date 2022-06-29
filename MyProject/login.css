@@ -1,0 +1,283 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+#help:hover{
+    color: black;
+    background-color: beige;
+}
+header,
+form {
+    display: block
+}
+
+body {
+    box-sizing: border-box
+}
+.a11{
+    margin-top: -15px;
+    margin-left: -15px;
+    background-color: transparent;
+}
+img {
+    width: 200px;
+    height: 130px;
+    margin-left: -15px;
+    margin-top: -5px;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 29px;
+    color: #282a35;
+    margin: 0;
+    display: block;
+
+}
+
+.a1 {
+    color: sandybrown;
+    background-color: transparent;
+    margin-right: 0px;
+}
+.a1:hover {
+    color: sandybrown;
+    background-color: transparent;
+}
+.log {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.login{
+    background-color: transparent;
+    border-radius: 10px;
+    
+}
+.login:hover{
+    background-color: transparent;
+}
+.form {
+    width: 400px;
+    height: 450px;
+    margin-right: 200px;
+    padding: inherit;
+    width: 90%;
+}
+
+.email {
+    float: none;
+    width: 95%;
+    margin-left: 20px;
+    margin-bottom: -30px;
+}
+
+.password {
+    float: none;
+    width: 30%;
+    margin-left: 20px;
+}
+
+input[type=text] {
+    width: 90%;
+    margin-top: -10px;
+    border-radius: 4px;
+    height: 40px;
+    border-color: rgb(118, 118, 118);
+    padding: 1px 2px;
+    border: 0.5px solid #ccc;
+    overflow: hidden;
+}
+
+input[type=text]:focus {
+    border: 3px solid aliceblue;
+}
+
+.email {
+    margin-top: 50px;
+}
+
+.inneremail {
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 100%
+}
+
+.place {
+    margin-left: 20px;
+}
+
+.spm {
+    float: right;
+    margin-top: -18px;
+    margin-right: 0px;
+}
+
+.e {
+    font-style: normal;
+    font-size: 15px;
+}
+
+.password {
+    margin-top: 60px;
+    width: 95%;
+}
+
+.p {
+    font-family: inherit;
+    font-size: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+input[type=password] {
+    width: 95%;
+    margin-top: 0;
+    border-radius: 4px;
+    height: 40px;
+    border-color: rgb(118, 118, 118);
+    padding: 1px 2px;
+    border: 0.5px solid #ccc;
+    overflow: hidden;
+}
+
+input[type=password]:focus {
+    border: 3px solid blue;
+}
+
+input[type=button] {
+    width: 70%;
+    color: white;
+    background-color: burlywood;
+    cursor: pointer;
+    margin: 4px 2px;
+    text-decoration: none;
+    border: none;
+    padding: 15px 10px;
+    border-radius: 25px 25px 25px 25px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+input[type=button]:hover {
+    background-color: green;
+    color: white;
+}
+
+.fpass {
+    margin-left: 30%;
+    background-color: transparent;
+}
+
+.help {
+    float: right;
+    margin-top: 25px;
+    margin-right: 50px;
+    padding-right: 30px;
+    margin-bottom: 0;
+}
+
+.bigform {
+    border: 1px solid #ccc;
+    border-radius: 19px;
+    width: 450px;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 0%;
+    position: relative;
+    top: 40px;
+}
+
+.bb {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+  .closebtn{
+        display: none;
+    }
+    
+    #open11{
+        display: none;
+    }
+    .myopen{
+        width: auto;
+        height: 80px;
+        margin-top: 25px;
+        float: right
+    }
+    a{
+        -webkit-box-flex: 1;
+        padding: 17px 30px;
+        display: inline-flex;
+        background-color: transparent;
+        text-decoration: none;
+        margin-top: 10px; 
+        color: black;
+    }
+    a:hover{
+        color: black;
+        background-color: white;
+    }
+    @media screen and (max-width:700px) {
+        .myopen {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: bisque;
+            overflow-x: hidden;
+            transition: 1s;
+            padding-top: 50px;
+            margin-top: 0px;
+            border: 0px;
+            margin-left: 0;
+        }
+
+        .myopen a {
+            display: block;
+            padding: 50px;
+            text-decoration: none;
+            font-size: 26px;
+            transition: 1s;
+        }
+        .myopen{
+            display: block;
+        }
+        .myopen a:hover {
+            color: darkturquoise;
+        }
+
+        .myopen .closebtn {
+            position: absolute;
+            top: 0;
+            right: 4px;
+            margin-left: 65px;
+            font-size: 38px;
+        }
+        #open11{
+            display: block;
+            margin-top: -100px;
+            float: right;
+        }
+        a{
+            background-color: transparent;
+        }
+        a:hover{
+            background-color: transparent;
+        }
+    }
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+.dark-mode a{
+    color: white;
+    background-color: transparent;
+}
+.dark-mode span{
+    color: white;
+    background-color: transparent;
+}

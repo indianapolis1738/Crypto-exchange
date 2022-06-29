@@ -1,0 +1,95 @@
+<!doctype html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        *{
+            font-family: sans-serif;
+        }
+       
+        .tel{
+         width: 50%;   
+        }
+        .name{
+            width: 40%;
+        }
+        .entbody{
+            height: ;
+        }
+    </style>
+    </head>
+    <body>
+        <div class="entbody">
+         <header class="header">
+
+            <a class="a11" href="homepage.html"><img src="IMG_7145.jpg"></a>
+            <nav>
+;
+                <div id="open" class="open1">
+
+                    <ul>
+                        <li><a href="javascript:void(0)" class="closebtn1" onclick="closeNav()">
+                                &times;
+                            </a></li>
+                        <li><a href="sellandbuy.html">Sell/convert</a></li>
+                        <li><a href="Rates.html">Rates</a> </li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="calculator.html">Calculator</a></li>
+                        <li><a href="**">Support</a></li>
+                    </ul>
+                </div>
+                 <button onclick="darkmode()" style="float: right; margin-top: 7px; margin-left: 10px; border-radius: 6px; color: background-color: transparent; height: 30px; width: 35px;">&#9775;</button>
+    <script>
+    function darkmode() {
+        var element = document.body; element.classList.toggle("dark-mode");
+        document.getElementById("indi");
+    }
+    </script>
+                <span style="font-size: 30px; cursor: pointer;" onclick="openNav()" id="open11">&#9776;</span>
+                <script>
+                    function openNav() {
+                        document.getElementById("open").style.width = "250px";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("open").style.width = "0";
+                    }
+
+                </script>
+            </nav>
+        </header><br>
+         <div class="header1" style="margin-top: 15%;">
+            <h1><center>Profile</center></h1>
+        </div><br><br>
+       <form style="width: 90%; ">
+         <img src="profile.png" alt="Avatar" class="avatar">
+           <fieldset class="field">
+           <label for="name">Firstname:</label><input class="name" placeholder="Name" name="name"><br><br>
+               <label for="name1">Other Names:</label><input class="name" placeholder="Other Names" name="name" type="text"><br><br>
+               <label for="DOB">&#128197; DOB:</label><input class="DOB" name="DOB" type="date"><br><br>
+               <label for="gender">&#128100;Gender:</label><select>
+               <option>Gender</option>
+               <option>&#129333;Male</option>
+               <option>&#128105;Female</option></select><br><br>
+               <label for="tel">&#128222; Tel:</label>
+               <select>
+                   <option>Country Code:</option>
+               <option>+234</option>
+                   <option>+254</option>
+                   <option>+1</option>
+                   <option>+44</option>
+                   <option>+49</option>
+               </select>
+               <input type="tel" name="tel" class="tel"><br><br>
+               <label for="user">&#127380; User ID</label><input placeholder="ID" type="number">
+           </fieldset>
+        </form>
+            </div>
+        <div class="foot">
+        <footer class="footer">
+        CEx &copy; Copyright 2021. All Rights Reserved
+    </footer>
+            </div>
+</body>
+</html>

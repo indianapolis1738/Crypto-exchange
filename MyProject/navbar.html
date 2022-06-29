@@ -1,0 +1,151 @@
+<!doctype>
+<html>
+    <style>
+        a {
+        -webkit-box-flex: 1;
+        text-decoration: none;
+        display: inline-flex;
+        float: right;
+        padding: 10px 15px 16px;
+        margin: 2px;
+        color: black;
+        background-color: antiquewhite;
+    }
+
+    .closebtn {
+        display: none;
+    }
+
+    #open11 {
+        display: none;
+    }
+
+    .open1 {
+        width: auto;
+        height: auto;
+    }
+
+    ul li {
+        list-style-type: none;
+    }
+
+    @media screen and (max-width:600px) {
+        #open11 {
+            display: inline-block;
+        }
+
+        a {
+            padding: 0px;
+            margin: 30px;
+            float: right;
+            color: black;
+            background-color: transparent;
+
+        }
+
+        .open1 a {
+            text-decoration: none;
+            font-size: 20px;
+            transition: 2s;
+        }
+
+        .open1 {
+            height: 350px;
+            width: 0;
+            transition: 0.5s;
+            overflow: scroll;
+            float: right;
+            position: relative;
+            z-index: 1;
+            top: 1;
+            left: 0;
+            background-color: bisque;
+        }
+
+        #open11 {
+            float: right;
+            top: 0;
+            
+        }
+        .closebtn{
+            display: inline-block;
+        }
+    ul li {
+            list-style-type: none;
+        padding: inherit;
+        
+        }
+    }
+</style>
+
+<body>
+    <nav>
+        
+        <div id="open" class="open1">
+        
+            <ul>
+                <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+                        &times;
+                    </a></li>
+                <li><a href="sellandbuy.html">Support</a></li>
+                <li><a href="Rates.html">Rates</a> </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="calculator.html">Calculator</a></li>
+                <li><a href="**">Sell/convert</a></li>
+            </ul>
+        </div>
+        <span style="font-size: 30px; cursor: pointer;" onclick="openNav()" id="open11">&#9776;</span>
+        <script>
+            function openNav() {
+                document.getElementById("open").style.width = "250px";
+            }
+
+            function closeNav() {
+                document.getElementById("open").style.width = "0";
+            }
+        </script>
+    </nav>
+    <iframe src="https://www.scorebat.com/embed/livescore/" frameborder="0" width="600" height="760" allowfullscreen allow='autoplay; fullscreen' style="width:600px;height:760px;overflow:hidden;display:block;" class="_scorebatEmbeddedPlayer_"></iframe><script>(function(d, s, id) {
+var js, fjs = d.getElementsByTagName(s)[0];
+if (d.getElementById(id)) return;
+js = d.createElement(s); js.id = id;
+js.src = 'https://www.scorebat.com/embed/embed.js?v=arrv';
+fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'scorebat-jssdk'));</script>
+<script>
+    var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?1131';
+    var s = document.createElement('script');
+    s.type = 'text/javascript';
+    s.async = true;
+    s.src = url;
+    var options = {
+  "enabled":true,
+  "chatButtonSetting":{
+      "backgroundColor":"#ffc777",
+      "ctaText":"Contact Us",
+      "borderRadius":"25",
+      "marginLeft":"0",
+      "marginBottom":"50",
+      "marginRight":"50",
+      "position":"left"
+  },
+  "brandSetting":{
+      "brandName":"Carp Exchange",
+      "brandSubTitle":"Typically replies within an hour",
+      "brandImg":"https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+      "welcomeText":"Hi there!\nHow can I help you?",
+      "messageText":"Hello, I have a question about your service.",
+      "backgroundColor":"#ffc777",
+      "ctaText":"Start Chat",
+      "borderRadius":"25",
+      "autoShow":false,
+      "phoneNumber":"2348101778465"
+  }
+};
+    s.onload = function() {
+        CreateWhatsappChatWidget(options);
+    };
+    var x = document.getElementsByTagName('script')[0];
+    x.parentNode.insertBefore(s, x);
+</script>
+</body></html>
